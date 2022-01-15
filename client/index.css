@@ -1,0 +1,29 @@
+:root {
+    --font-odibee-sans: "Odibee Sans", cursive;
+    --color-blue-btn: #006cfc;
+    --color-blue-border: #001997;
+    --color-green-title: #009048;
+    --background-red: rgba(137, 73, 73, 0.6);
+    --background-green: rgba(106, 146, 74, 0.6);
+    --background-gray: rgba(106, 112, 101, 0.6);
+}
+html {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-image: url("./assets/fondo.svg");
+    background-position-x: center;
+    margin: 0;
+    overflow-y: hidden;
+    height: 100vh;
+}
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

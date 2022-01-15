@@ -1,0 +1,7 @@
+node_modules
+.parcel-cache
+index.js
+dist
+rtdb.js
+database.js
+Lucas.txt

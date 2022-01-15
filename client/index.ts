@@ -1,0 +1,19 @@
+import "./router";
+import "./pages/home/index";
+import "./pages/signup/index";
+import "./pages/login/index";
+import "./pages/enter-room/index";
+import "./pages/room/index";
+import "./pages/rules/index";
+import "./pages/election/index";
+import "./pages/round/index";
+import "./pages/results/index";
+
+import "./components/button/index";
+import "./components/movement/index";
+import "./components/paper/index";
+import "./components/stone/index";
+import "./components/scissor/index";
+import "./components/input/index";
+import "./components/title/index";
+import "./components/data-comp/index";

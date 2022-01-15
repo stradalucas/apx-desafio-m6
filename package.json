@@ -1,0 +1,29 @@
+{
+    "name": "desafio-modulo-6",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "dev:front": "parcel serve ./client/index.html",
+        "build:front": "parcel build ./client/index.html",
+        "dev:api": "nodemon --watch ./server/index.ts --exec ts-node ./server/dev.ts",
+        "build:api": "tsc ./server/index.ts",
+        "build": "yarn build:front && yarn build:api",
+        "start": "node ./server/index.js"
+    },
+    "dependencies": {
+        "@types/node": "^16.9.1",
+        "@vaadin/router": "^1.7.4",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "firebase": "8.7.1",
+        "firebase-admin": "^9.11.1",
+        "firebase-functions": "^3.15.5",
+        "nanoid": "^3.1.25",
+        "nodemon": "^2.0.12",
+        "parcel": "^2.0.1",
+        "typescript": "^4.3.5"
+    },
+    "repository": "git@github.com:alexismunoz1/desafio-modulo-6.git",
+    "source": "alexis muñoz <munozmiguelalexis@gmail.com>",
+    "author": "https://github.com/stradalucas>"
+}
